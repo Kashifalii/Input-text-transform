@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(45deg, #343a40, #495057, #6c757d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header form {
+    color: #9d4edd;
+    padding: 50px 30px;
+    width: 500px;
+    height: fit-content;
+    text-align: center;
+    background: linear-gradient(45deg, #240046, #3c096c);
+    box-shadow: 20px 20px 1px #3c096c77;
+    outline-offset: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header form input {
+    color: #240046;
+    padding: 20px 25px;
+    margin: 10px 0 20px 0;
+    background: #e0aaff;
+    border: none;
+    border-radius: 30px;
+}
+
+header form input:focus {
+    outline: none;
+}
